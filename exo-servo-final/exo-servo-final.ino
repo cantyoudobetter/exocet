@@ -10,8 +10,8 @@ const int servoPin = 2;
 Servo myservo; 
 
 int throttleState = 0;         
-const int angleOff = 150;
-const int angleOn = 40;
+const int angleOff = 50;
+const int angleOn = 102;
 
 void setup() {
   myservo.attach(servoPin); 
